@@ -1,4 +1,4 @@
-# MSP432-Computer-Vision-Robot
+# PACK-E
 MSP432 Robot Chassis with ESP32 Camera Detection
 
 ## Project Description:
