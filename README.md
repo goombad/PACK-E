@@ -8,8 +8,9 @@ Custom-trained object detection model using:
 - TFLite Micro as inference engine/library
 - Edge Impulse as platform for training model on dataset
 For computer vision part:
-- divide screen into 6 bands
-- <img width="1109" height="532" alt="image" src="https://github.com/user-attachments/assets/d381eb0e-2944-4094-b3c4-0a6dd54e1c91" />
+- Finds centroid of each objects, outputs object x, y coords
+- Caclulates error between object centroid and camera center frame,
+- Maps error to rotation speed until robot reaches center
 
 
 96 x 96 resolution yolo();, rgb565 //to save ram
